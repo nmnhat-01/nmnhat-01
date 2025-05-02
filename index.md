@@ -103,7 +103,7 @@ Major: Math and Computer Science
     - Using proxy to scrape data
 
 ### 3. DATA FOR DIGITAL REPORT (WORKER JOB SCHEDULE)
-- **Description:** App runs job to pull,scrape data from adsnetwork to PostgreSQL database, write data to ggsheet.
+- **Description:** App runs job to pull & scrape data from adsnetwork to PostgreSQL database, write data to ggsheet.
 - **Technology:** Python Cronjob, Proxy, Selenium, PostgreSQL (trigger, function, on conflict)
 - **Experience learned:**
     - Scrape data on the web
