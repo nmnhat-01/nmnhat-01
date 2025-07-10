@@ -83,7 +83,7 @@ Major: Math and Computer Science
 
 ---
 
-## AT REMOTE JOB OS (08/2024 - 6/2025)
+## AT REMOTE JOB OS (08/2024 - 06/2025)
 
 ### 1. VIDEO CMS (API)
 - **Description:** App to manage (post, edit, delete) posts, videos, short, reel on platforms (fb, tiktok, youtube)
