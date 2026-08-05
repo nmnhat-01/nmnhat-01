@@ -1,144 +1,82 @@
 ---
 layout: default
-title: Nguyễn Minh Nhật
+title: Nguyễn Minh Nhật | Back-End Developer
 ---
 
 # Nguyễn Minh Nhật
 
-**Email:** nhatnguyen0925230317@gmail.com
+**Back-End Developer**<br>
+**Email:** [nhatnguyen0925230317@gmail.com](mailto:nhatnguyen0925230317@gmail.com) · **Phone:** [+84 398 870 065](tel:+84398870065) · **GitHub:** [github.com/nmnhat-01](https://github.com/nmnhat-01)
 
-**Phone:** +84398870065
+## Professional Summary
 
-**GitHub:** [github.com/nmnhat-01](https://github.com/nmnhat-01)
+Back-End Developer with 4+ years of experience building APIs, background workers, internal platforms, and event-driven systems. Strong experience with C#/.NET and Python, including RESTful APIs, distributed processing, database design, third-party integrations, authentication, caching, and CI/CD. Comfortable working across product development, system modernization, production troubleshooting, and automation.
 
-## 🎯 Objective
-I am looking for a Back-End Developer position. I'' be so happy to have a chance to become a part of the company, and word hard together in the coming years. Hoping we can get more knowledge by sharing each others. From my point of views, unshared knowledge is dead knowledge.
+## Technical Skills
 
-## 📘 Education
-**Ho Chi Minh City University of Science – HCMUS**  
-Major: Math and Computer Science
+- **Languages & frameworks:** C#, .NET 8/9/10, ASP.NET Core, Python, FastAPI, Node.js, TypeScript
+- **Databases & search:** SQL Server, PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch
+- **Messaging & real-time:** RabbitMQ, Kafka, MassTransit, SignalR, Socket.IO
+- **Architecture:** RESTful API, Clean Architecture, microservices, event-driven architecture, CQRS, repository pattern, SOLID, dependency injection
+- **Background processing:** Hangfire, Quartz, cron jobs, worker services, RQ
+- **DevOps & tools:** Docker, Docker Compose, Jenkins, Azure CI/CD, Nginx, HAProxy, Git, Swagger/OpenAPI
+- **Integrations & automation:** OAuth2, JWT, OTP/2FA, AWS S3, Google APIs, Firebase, Telegram, Discord, Lark, Selenium, SOAP
 
-## 💼 Projects & Work Experience
+## Work Experience
 
-## AT CT GROUP (01/2022 – 12/2022)
+### Remote — Back-End Developer **08/2024 – Present**
 
-### 1. SOCIAL NETWORK 3R (API for Web App)
-- **Description:** Develop API using ASP.NET for social network system.
-- **Technology:** C#, ASP.NET, LINQ, MSSQL
-- **Experience learned:**
-    - Design RESTful API
-    - Data processing with LINQ
-    - Optimize SQL queries on MSSQL
+- Develop and maintain APIs, CMS backends, worker services, and integration gateways using .NET and Python.
+- Design asynchronous workflows with RabbitMQ, Kafka, Hangfire, Redis, distributed locks, idempotency, and scheduled jobs.
+- Integrate internal systems and external providers; support containerized deployment and CI/CD across development and production environments.
 
-### 2. SUPPER APP (API for Web Back Office & Mobile Product)
-- **Description:** Application integrating many internal services for the company.
-- **Technology:** C#, ASP.NET, LINQ, MSSQL
-- **Experience learned:**
-    - Dependency Injection
-    - Send mail with `smtpClient`
-    - Authentication & authorization with JWT Token
+#### Selected Projects
 
-### 3. DATA SYSTEM (API for Web App)
-- **Description:** Data storage and processing system.
-- **Technology:** C#, ASP.NET, PostgreSQL, MySQL
-- **Experience learned:**
-    - Store data according to the store procedure model
-    - Work with many database management systems (PostgreSQL, MySQL)
+**Gift Shop & Rewards Platform**
 
-### 4. ERP SYSTEM (API & UI)
-- **Description:** ERP system for human resource management, payroll, timekeeping.
-- **Technology:** ASP.NET MVC, LINQ, MSSQL, SMTP, EPPlus, Quartz
-- **Experience learned:**
-    - Develop Excel file export/import feature
-    - Schedule jobs with Quartz
-    - Microservices: distributed data processing, separate services
+- Built and evolved customer-facing and CMS APIs for products, orders, rewards, games, chip/point exchanges, promotions, and transaction histories.
+- Applied an event-driven/CQRS design with dedicated workers, idempotent transaction handling, distributed locking, real-time notifications, and audit trails.
+- **Technology:** .NET 8, Entity Framework Core, SQL Server, RabbitMQ, MassTransit, Redis, SignalR, Hangfire, Docker, Jenkins, Nginx
 
----
+**Domain Management & Monitoring Platform**
 
-## AT NAM PHUONG TECHNOLOGY (03/2023 – 08/2024)
+- Developed a gateway that normalizes domain, DNS, expiry, renewal, and payment data from multiple registrars, including Namecheap, GoDaddy, Dynadot, INWX, SAV, Spaceship, and Porkbun.
+- Implemented scheduled synchronization, provider abstraction, status/linkout checks through proxies, reporting, alerts, and bot Telegram notifications.
+- **Technology:** .NET 8/10, ASP.NET Core, MongoDB, Redis, Hangfire, Python, `curl_cffi`, Docker, Jenkins
 
-### 1. TEMPLATE PROJECT (.NET CORE)
-- **Description:** Create a template project as a standard for other projects in the company.
-- **Technology:** .NET Core 7, C#, Redis, JWT, Dependency Injection
-- **Learned experience:**
-    - Clean Architecture
-    - Error and response analysis
-    - Redis Cache and Singleton pattern
+**Campaign Platforms**
 
-### 2. CABINBOOK (API for mobile & website)
-- **Description:** Manage flight schedule information, flight reports, leave registration, feedback, ... for Vietnam Airlines flight attendants
-- **Technology:** .NET Framework 4.5 → .NET Core 7, Redis, CI/CD to Azure
-- **Learned experience:**
-    - Convert framework (migrating .NET 4.5 → Core 7)
-    - API integration, save local/cloud files, send OTP/email notifications
-    - DevOps: deploy using CI/CD to azure service
+- Developed multi-application backends for charity and marketing campaigns, including customer submissions, games, point transactions, media uploads, RBAC, audit logs, and 2FA-protected administration.
+- Separated client, CMS, external API, shared library, and worker responsibilities to support independent development and background processing.
+- **Technology:** .NET 8, MongoDB, Redis, RabbitMQ, Hangfire, SignalR, AWS S3, FFmpeg, Docker
 
-### 3. CENTRALLHUB (Automatic Robot)
-- **Description Description:** Robot synchronizes data with external systems, serving Cabinbook application.
-- **Technology:** .NET Framework 4.5, SOAP, WSAP, Amadeus/Sabre
-- **Experience learned:**
-    - Communicate with external systems via SOAP API
-    - Multi-thread
-    - Send automatic emails
+**Movie Streaming CMS & Client APIs**
 
----
+- Developed separate CMS and client APIs for movie catalogs, episodes, comments, ratings, viewing progress, home-page configuration, search, authentication, and media uploads.
+- **Technology:** .NET 9, MongoDB, Elasticsearch, Redis, AWS S3, Google OAuth, Docker
 
-## AT REMOTE JOB OS (08/2024 - 07/2025)
+**Additional projects:** Video CMS integrations for Facebook, TikTok, and YouTube; AI-assisted domain evaluation; scheduled advertising-data collection and Google Sheets reporting using Selenium and proxies.
 
-### 1. VIDEO CMS (API)
-- **Description:** App to manage (post, edit, delete) posts, videos, short, reel on platforms (fb, tiktok, youtube)
-- **Technology:** Python Fast API, PostgreSQL, RabbitMQ, Redis
-- **Experience learned:**
-    - Working with fb, tiktok, google
-    - Processing pub-sub model with RabbitMQ
+### Nam Phuong Technology — Back-End Developer **03/2023 – 08/2024**
 
-### 2. DOMAIN HUNTING SYSTEM (API & WORKER)
-- **Description:** App supports domain evaluation & valuation with AI support.
-- **Technology:** Python Fast API, Kafka Cluster, MongoDB Cluster, Redis Sentinel
-- **Experience learned:**
-    - Working with Kafka Cluster, MongoDB Cluster, Redis Sentinel
-    - Background task
-    - Multithreading and data sharing between threads
-    - Writing standard prompts to work with AI
-    - Using proxy to scrape data
+**Cabinbook & CentralHub**
 
-### 3. DATA FOR DIGITAL REPORT (WORKER JOB SCHEDULE)
-- **Description:** App runs job to pull & scrape data from adsnetwork to PostgreSQL database, write data to ggsheet.
-- **Technology:** Python Cronjob, Proxy, Selenium, PostgreSQL (trigger, function, on conflict)
-- **Experience learned:**
-    - Scrape data on the web
-    - Using selenium
-    - Recording and processing data Google sheet
+- Maintained applications for Vietnam Airlines flight attendants, covering flight schedules, reports, leave requests, feedback, OTP/email notifications, and file storage.
+- Migrated services from .NET Framework 4.5 to .NET 7 and integrated external aviation systems through SOAP APIs, including Amadeus and Sabre.
+- Built multithreaded synchronization processes and supported CI/CD deployment to Azure.
+- **Technology:** C#, .NET Framework 4.5, .NET 7, Redis, SOAP, Azure CI/CD
 
----
+**Company .NET Template**
 
-## 🌟 Skills & Experience Gained from Projects
+- Created a reusable .NET 7 project template based on Clean Architecture with standardized authentication, error handling, dependency injection, and Redis caching.
 
-### 🔧 Backend Development
-- Design and implement **RESTful APIs** using ASP.NET and FastAPI.
-- Apply **Clean Architecture** and **SOLID principles** in real-world systems.
-- Experience in developing both **monolithic** and **microservices** architectures.
-- Implement **authentication/authorization** using **JWT**, refresh tokens, and role-based access control.
-- Use **Dependency Injection** and **Singleton Pattern** to manage code structure and performance.
+### CT Group — Back-End Developer **01/2022 – 12/2022**
 
-### 🗄️ Database Systems
-- Work with multiple DBMS: **MSSQL, PostgreSQL, MySQL, MongoDB Cluster**.
-- Use **LINQ**, stored procedures, triggers, and functions for data handling.
-- Optimize complex **SQL queries** for large-scale data processing.
-- Handle **conflict resolution**, data transformation, and **concurrent updates**.
+- Developed RESTful APIs for a social network, an internal super app, a data platform, and an ERP system covering HR, payroll, and attendance.
+- Worked with JWT authentication, LINQ, stored procedures, SQL optimization, Excel import/export, scheduled jobs, and microservice-based data processing.
+- **Technology:** C#, ASP.NET Core, ASP.NET MVC, SQL Server, PostgreSQL, MySQL, EPPlus, Quartz
 
-### 📨 Messaging & Asynchronous Processing
-- Implement **Pub/Sub model** using **RabbitMQ** for asynchronous tasks.
-- Experience with **Kafka Cluster** and **background jobs/workers** for high-throughput pipelines.
-- Build **scheduled tasks** using Quartz (C#) and cronjob (Python).
+## Education
 
-### 📦 Integration & API Communication
-- Integrate with 3rd-party platforms: **Facebook, TikTok, YouTube, Google**.
-- Communicate with external systems using **SOAP** and **RESTful APIs**.
-- Manage **token-based authentication** and session handling for external services.
-
-### 🧠 AI & Automation
-- Write standard **AI prompts** for domain valuation and text generation.
-- Develop **multi-threaded applications** for concurrent data processing.
-- Use **Selenium** for web automation and data scraping.
-- Scrape data with **proxy rotation** to avoid bans and enhance stability.
+**Ho Chi Minh City University of Science (HCMUS)**<br>
+Major: Mathematics and Computer Science
